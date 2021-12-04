@@ -1,0 +1,3 @@
+https://roytuts.com/spring-boot-mvc-with-tiles-and-ajax/
+
+test on web browser, url is http://localhost:8080/home

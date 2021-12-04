@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+        <!-- the name property is from the return of the method on controller  -->
+        <!-- the template is the directory of the jsp under webapp folder -->
+        <definition name="roytuts.com.homepage" template="/layouts/template.jsp">
+        	<put-attribute name="title" value="Roy Tutorials homepage" />
+                <put-attribute name="header" value="/tiles/header.jsp" />
+                <put-attribute name="menu" value="/tiles/menu.jsp" />
+                <put-attribute name="body" value="/views/index.jsp" />
+                <put-attribute name="footer" value="/tiles/footer.jsp" />
+        </definition>
+        <!-- the name property is from the return of the method on controller  -->
+        <definition name="roytuts.com.contactpage" extends="roytuts.com.homepage">
+            	<put-attribute name="title" value="Spring Boot Tiles AJAX | Contact Form" />
+            	<put-attribute name="body" value="/views/contact.jsp" />
+        </definition>
+
+</tiles-definitions>
