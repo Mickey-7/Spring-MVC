@@ -1,0 +1,6 @@
+https://roytuts.com/spring-boot-mvc-and-jdbc-crud-example/
+
+-> initial loading of data defined on sql script
+
+to check: type localhost:8080/teachers on web browser
+          type localhost:8080/h2 on web browser
